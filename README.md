@@ -1,5 +1,7 @@
-# project
-a curated selection of music for sophisticated listeners
+# mus3r.hq  
+a curated selection of music for sophisticated listeners. 
+Welcome to Mus3r.HQ, your go-to music database for endless listening pleasure! With our vast collection of tunes and seamless user experience, finding your next favorite jam has never been easier. From chart-toppers to indie gems, let Mus3r.HQ be your guide to the world of music discovery.
+
 ```
 ├── css
 │   ├── loader.css
