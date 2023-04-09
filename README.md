@@ -3,10 +3,10 @@
 Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With our vast collection of tunes and seamless user experience, finding your next favorite jam has never been easier. From chart-toppers to indie gems, let Mus3r.HQ be your guide to the world of music discovery.
 
 ```
+.
 ├── css
 │   ├── loader.css
 │   ├── style.css
-│   ├── style2.css
 │   └── styles.css
 ├── html
 │   ├── 1album01_songs.html
@@ -34,6 +34,7 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
 │   ├── 5album03_songs.html
 │   ├── 5album04_songs.html
 │   ├── 5album05_songs.html
+│   ├── about.html
 │   ├── artist01_albums.html
 │   ├── artist02_albums.html
 │   ├── artist03_albums.html
@@ -43,6 +44,11 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
 │   ├── index.html
 │   └── preloader.html
 └── images
+    ├── IMG-20230226-WA0098.jpg
+    ├── aadi.jpg
+    ├── ag.jpg
+    ├── ari.jpg
+    ├── ari.webp
     ├── ari1.jpeg
     ├── ari2.jpeg
     ├── ari3.jpeg
@@ -51,6 +57,8 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
     ├── ariana.jpeg
     ├── arianarecent.jpeg
     ├── arianatop.jpeg
+    ├── cool.gif
+    ├── dr.jpg
     ├── drake.jpeg
     ├── drake.png
     ├── drake1.jpeg
@@ -60,6 +68,9 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
     ├── drake5.jpeg
     ├── drakerecent.jpeg
     ├── draketop.jpeg
+    ├── dw.jpg
+    ├── example.html
+    ├── exstyle.css
     ├── frank.jpeg
     ├── frank1.jpeg
     ├── frank2.jpeg
@@ -78,7 +89,18 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
     ├── harry5.jpeg
     ├── harryhouse.jpeg
     ├── harrystyles.jpeg
+    ├── hs.jpg
+    ├── life.jpeg
+    ├── lj.jpg
+    ├── logo.png
+    ├── lu.jpg
+    ├── manasa.jpeg
+    ├── me.jpeg
+    ├── novo.jpg
+    ├── ppl.jpg
     ├── topharry.jpeg
+    ├── up.jpg
+    ├── up.webp
     ├── up1.jpeg
     ├── up2.jpeg
     ├── up3.jpeg
@@ -92,5 +114,6 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
     ├── vinyl.jpeg
     └── vinyl.png
 
-4 directories, 85 files
+4 directories, 106 files
 ```
+To run the website, open ```ind.html```
