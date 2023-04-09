@@ -1,0 +1,434 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;  
+
+    font-family: sans-serif;
+
+    background-color: #000000; 
+    
+    flex-direction: column;
+}
+
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 0 5%;
+	height: 100px;
+	background-color:black;
+}
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+    font-family: Planet Kosmos;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+	height: 100%;
+	display: flex;
+    font-family: 'Poppins', sans-serif;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+    font-family: 'Poppins', sans-serif;
+	list-style: none;
+}
+nav .links a {
+    font-family: 'Poppins', sans-serif;
+	display: block;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav .links a.active {
+  background-color: #fff;
+  color: #B76E79;
+  border-bottom: 2px solid #000;
+}
+
+
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+
+@font-face { font-family: Planet Kosmos; src: url('https://www.mediafont.com/storage/contents/9156/font.eot'); /* IE */ src: local('Planet Kosmos'), url('https://www.mediafont.com/storage/contents/9156/PLANK___.TTF'); /* non-IE */ }
+
+
+  .text {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+  }
+  
+   .text2 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: #FFFFFF;
+    font-family: "Lemon Milk Bold", sans-serif;
+    margin-top:-200px;
+    
+  }
+  
+     .text3 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    z-index: 1;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Poppins Italic, sans-serif;
+    font-weight: 300;
+    margin-top:-200px;
+    padding-left: 200px;
+    
+  }
+  
+  
+  
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  width: 100%;
+  background-color: #000000; 
+  margin-bottom: 100px;
+  
+}
+
+
+
+
+
+/* 
+@font-face {
+    font-family: "Poppins";
+    src: url("/home/aadi/website/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("/home/aadi/website/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins Italic";
+    src: url("/home/aadi/website/Poppins-MediumItalic.ttf") format("truetype");
+} */
+
+
+@font-face {
+    font-family: "BN";
+    src: url("/home/aadi/website/Baron Neue.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rainy Hearts";
+    src: url("/home/aadi/website/rainyhearts.ttf") format("truetype");
+}
+
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 15%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  color: #FFFFFF;
+  font-family: "Planet Kosmos", sans-serif;
+  padding: 10px 10px;
+  font-size: 50px;
+  z-index: 9999;
+}
+
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  color: #FFFFFF;
+  font-family: "Poppins Bold", sans-serif;
+  font-size: 40px;
+  padding: 20px 20px 120px 20px;
+  background-color: #000000; 
+}
+
+
+.card {
+  display: inline-block;
+  width: 30%; 
+  margin: 10px; 
+  vertical-align: top;
+  background-color: #000000; 
+  
+}
+
+.container .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #2c73df;
+
+}
+
+
+
+.container .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container .card .slide.slide1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    
+    background-color: #000000; 
+
+}
+
+.container .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    
+
+}
+
+.container .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    font-family: "Poppins", sans-serif;
+    
+    font-size: 15px;
+
+}
+
+.container .card .slide.slide2 .content h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    font-family: "Poppins Bold", sans-serif;
+
+} 
+
+
+
+a {
+    color: white;
+    font-family: "Poppins Bold", sans-serif;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.cont{
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color:#000;
+    flex-direction: column;
+    
+}
+
+.cont > * {
+  flex: 1; /* make both child elements occupy equal space */
+}
+
+.gif {
+  position: absolute;
+  top: 50%;
+  transform: translate(120vh, -65%);
+  left: 20px;
+  width: 400px;
+}
+
+
+.about{
+    font-weight: 600;
+    font-size: 70px;
+    font-family: "Planet Kosmos", sans-serif;
+    line-height:65px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient( 68.7deg,  #C68D95 13.2%, #86434D 29.8%, #D5ABB2 48.9%, #B76E79 68.2%, #C68D95 86.4% );
+   margin-top:150px;
+}
+
+
+@keyframes move {
+    0%,100%{
+        background-position: 200% 0%;
+    }
+
+    50%{
+        background-position: 0% 200%;
+    }
+}
+
+.iconDetails {
+ margin-left:5px;
+ float:left; 
+ height:300px;
+ width:300px; 
+} 
+
+.container2 {
+    width:100%;
+    height:auto;
+    padding-bottom:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h4{
+    color:white;
+    font-size: 50px;
+    font-family:'Poppins';
+}
+
+
+
+
+
+
