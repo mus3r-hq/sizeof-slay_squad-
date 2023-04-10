@@ -116,4 +116,4 @@ Welcome to Mus3r.HQ, your go-to music hub for endless listening pleasure! With o
 
 4 directories, 106 files
 ```
-To run the website, open ```ind.html```
+To run the website, download the repository, extract the zip file, and open ```../html/ind.html```
